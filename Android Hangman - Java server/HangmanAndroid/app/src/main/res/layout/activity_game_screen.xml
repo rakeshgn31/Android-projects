@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:orientation="vertical"
+    tools:context="kth.homeworks.hangmanandroid.ServerConnectionScreen">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="@string/btn_newGame"
+        android:textAlignment="center" android:textSize="20sp"
+        android:layout_gravity="end"
+        android:onClick="btnNewGameClicked"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <TextView android:text="@string/attempts_left"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp" android:textStyle="bold|italic" />
+
+        <TextView android:id="@+id/nAttemptsLeft"
+            android:text="@string/string_zero"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="25dp" android:layout_marginTop="5dp"
+            android:textSize="20sp" android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <TextView android:text="@string/total_score"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp" android:textStyle="bold|italic" />
+
+        <TextView android:id="@+id/nTotalScore"
+            android:text="@string/string_zero"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="95dp" android:layout_marginTop="10dp"
+            android:textSize="20sp" android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <TextView android:text="@string/guess_letter_word"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="38dp"
+        android:textSize="20sp" android:textStyle="bold|italic" />
+
+    <EditText android:id="@+id/etGuess"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="fill_horizontal|center_horizontal"
+        android:hint="@string/type_hint"
+        android:textStyle="italic" android:textSize="20sp"/>
+
+    <TextView android:text="@string/resulting_word"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/etResultant"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="fill_horizontal|center_horizontal"
+        android:focusable="false" android:hint="@string/word_construct"
+        android:textStyle="italic" android:textSize="20sp"/>
+
+    <TextView android:text="@string/game_status"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20sp" android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/etGameStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="fill_horizontal|center_horizontal"
+        android:focusable="false" android:hint="@string/guess_status"
+        android:textStyle="italic" android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/btn_sendGuess"
+        android:layout_gravity="end"
+        android:textAlignment="center" android:textSize="20sp"
+        android:onClick="btnSendClicked"/>
+
+</LinearLayout>
+

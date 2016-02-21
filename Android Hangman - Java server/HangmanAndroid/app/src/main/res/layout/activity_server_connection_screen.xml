@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="kth.homeworks.hangmanandroid.ServerConnectionScreen">
+
+    <TextView android:text="@string/Server_Connection"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp" android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/hostName"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:hint="@string/hostname_hint"
+        android:layout_gravity="fill_horizontal|center_horizontal"
+        android:textStyle="italic" android:textSize="28sp"/>
+
+    <EditText
+        android:id="@+id/portNumber"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:hint="@string/port_num_hint"
+        android:layout_gravity="fill_horizontal|center_vertical"
+        android:textStyle="italic" android:textSize="28sp"/>
+
+    <Button android:id="@+id/connectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/btn_connect"
+        android:onClick="connectToServer"
+        android:textAlignment="center" android:textSize="20sp"/>
+
+    <TextView android:id="@+id/status_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp" android:textStyle="italic"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="title_activity_main_screen">Hangman - Welcome</string>
+    <string name="welcome_Screen_Msg">Welcome to the exciting word game..!!!</string>
+    <string name="ws_word">\nGUESS - C__A_S_</string>
+    <string name="Play_Game">Play</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_server_connection_screen">Server Connection</string>
+    <string name="Server_Connection"> Connect to remote server </string>
+    <string name="hostname_hint">Remote host name</string>
+    <string name="port_num_hint">Remote port number</string>
+    <string name="btn_connect">Connect</string>
+
+    <string name="title_activity_game_screen">Play Game</string>
+    <string name="attempts_left">Attempts Left: </string>
+    <string name="total_score">Score: </string>
+    <string name="string_zero">0</string>
+    <string name="guess_letter_word">Guess Letter/Word</string>
+    <string name="resulting_word">Resultant Word</string>
+    <string name="game_status">Status</string>
+    <string name="type_hint">type in here</string>
+    <string name="word_construct">constructed word</string>
+    <string name="guess_status">status of guess</string>
+    <string name="btn_newGame">New Game</string>
+    <string name="btn_sendGuess">Send</string>
+
+</resources>
