@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AndroidOCR</string>
+
+    <string name="str_username">username</string>
+    <string name="str_password">password</string>
+    <string name="str_login">login</string>
+    <string name="error_invalid_username">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="str_local_mode">Local Mode</string>
+    <string name="str_remote_mode">Remote Mode</string>
+    <string name="str_benchmark_mode">Benchmark Mode</string>
+    <string name="str_select_operating_mode">Select Operating Mode</string>
+    <string name="str_select_image_source">Select Image Source</string>
+    <string name="str_thumbnail_img_desc">Thumbnail image of processed text</string>
+    <string name="str_arrow_desc">Arrow indicating screen redirection</string>
+
+    <string name="str_creation_time">Creation Time:</string>
+    <string name="str_show_image">show image</string>
+    <string name="str_save_text_to_file">save text to file</string>
+    <string name="str_comparison_statistics">Comparison Statistics</string>
+    <string name="str_tot_num_images_processed">Total number of images processed:</string>
+    <string name="str_local_processing">Local Processing</string>
+    <string name="str_remote_processing">Remote Processing</string>
+    <string name="str_select_img">select</string>
+    <string name="str_select_one_or_many_images">Select one or many images</string>
+    <string name="str_image_in_the_gallery">Image in the Gallery</string>
+</resources>
